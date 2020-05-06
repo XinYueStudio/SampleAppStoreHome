@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>2fd98ea1-0289-4bca-8d4f-7c9a5637e944</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>762e5469-31bc-470e-8f18-b38262f0779e</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Styles">
+      <UniqueIdentifier>{ce405b63-a270-46e3-8454-1b2f33653ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML">
+      <UniqueIdentifier>{0547a731-0584-41b6-89e1-4d8b9875a4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML\assets">
+      <UniqueIdentifier>{d8114894-98bf-4fe2-8e8f-51dc7a3c12ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML\assets\css">
+      <UniqueIdentifier>{a60d15ad-f98f-4f62-9fbc-4016cda917d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML\assets\img">
+      <UniqueIdentifier>{7c0ac6d7-bb88-4b17-acd0-34c0fc5c1498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML\assets\js">
+      <UniqueIdentifier>{d635a2a9-2565-4948-a622-a30f11d599f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML\assets\img\backgrounds">
+      <UniqueIdentifier>{973a8586-7d5d-401c-b057-37d3cb6e4baf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="AppStorePage.xaml.cpp" />
+    <ClCompile Include="DeveloperCenterPage.xaml.cpp" />
+    <ClCompile Include="HomePage.xaml.cpp" />
+    <ClCompile Include="LibraryPage.xaml.cpp" />
+    <ClCompile Include="SettingsPage.xaml.cpp" />
+    <ClCompile Include="UserPage.xaml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="AppStorePage.xaml.h" />
+    <ClInclude Include="DeveloperCenterPage.xaml.h" />
+    <ClInclude Include="HomePage.xaml.h" />
+    <ClInclude Include="LibraryPage.xaml.h" />
+    <ClInclude Include="SettingsPage.xaml.h" />
+    <ClInclude Include="UserPage.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="HTML\assets\img\backgrounds\1.jpg">
+      <Filter>HTML\assets\img\backgrounds</Filter>
+    </Image>
+    <Image Include="HTML\assets\img\backgrounds\2.jpg">
+      <Filter>HTML\assets\img\backgrounds</Filter>
+    </Image>
+    <Image Include="HTML\assets\img\backgrounds\3.jpg">
+      <Filter>HTML\assets\img\backgrounds</Filter>
+    </Image>
+    <Image Include="HTML\assets\img\facebook.png">
+      <Filter>HTML\assets\img</Filter>
+    </Image>
+    <Image Include="HTML\assets\img\progress.gif">
+      <Filter>HTML\assets\img</Filter>
+    </Image>
+    <Image Include="HTML\assets\img\twitter.png">
+      <Filter>HTML\assets\img</Filter>
+    </Image>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\wechatlogin.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MicroLightHome_TemporaryKey.pfx" />
+    <None Include="HTML\assets\css\reset.css">
+      <Filter>HTML\assets\css</Filter>
+    </None>
+    <None Include="HTML\assets\css\style.css">
+      <Filter>HTML\assets\css</Filter>
+    </None>
+    <None Include="HTML\assets\css\supersized.css">
+      <Filter>HTML\assets\css</Filter>
+    </None>
+    <None Include="HTML\assets\js\jquery-1.8.2.min.js">
+      <Filter>HTML\assets\js</Filter>
+    </None>
+    <None Include="HTML\assets\js\scripts.js">
+      <Filter>HTML\assets\js</Filter>
+    </None>
+    <None Include="HTML\assets\js\supersized.3.2.7.min.js">
+      <Filter>HTML\assets\js</Filter>
+    </None>
+    <None Include="HTML\assets\js\supersized-init.js">
+      <Filter>HTML\assets\js</Filter>
+    </None>
+    <None Include="HTML\login.html">
+      <Filter>HTML</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+    <Page Include="HomePage.xaml" />
+    <Page Include="Styles\Styles.xaml">
+      <Filter>Styles</Filter>
+    </Page>
+    <Page Include="AppStorePage.xaml" />
+    <Page Include="LibraryPage.xaml" />
+    <Page Include="DeveloperCenterPage.xaml" />
+    <Page Include="UserPage.xaml" />
+    <Page Include="SettingsPage.xaml" />
+  </ItemGroup>
+</Project>

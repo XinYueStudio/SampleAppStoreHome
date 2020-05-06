@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="MicroLightHome.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MicroLightHome"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <!-- Source file is on the web. -->
+        <!-- <WebView x:Name="webView1" Source="http://www.contoso.com"/>-->
+
+        <!-- Source file is in local storage. -->
+        <!--  <WebView x:Name="webView2" Source="ms-appdata:///local/intro/welcome.html"/>-->
+
+        <!-- Source file is in the app package. -->
+        <!--<WebView x:Name="webView3" Source="ms-appx-web:///help/about.html"/>-->
+        <WebView HorizontalAlignment="Stretch"   Margin="0,0,0,0" VerticalAlignment="Stretch" Source="https://www.microlighttech.com/"  />
+
+    </Grid>
+</Page>
